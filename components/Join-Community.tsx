@@ -20,10 +20,10 @@ const JoinCommunity = () => {
                         <div className="box">
                             <div className="boxtop blue"></div>
                             <div>
-                                <span className="blue" style={{'--i':0}}></span>
-                                <span className="blue" style={{'--i':1}}></span>
-                                <span className="blue" style={{'--i':2}}></span>
-                                <span className="blue" style={{'--i':3}}></span>
+                                <span className="blue" style={{'--i':0} as React.CSSProperties}></span>
+                                <span className="blue" style={{'--i':1} as React.CSSProperties}></span>
+                                <span className="blue" style={{'--i':2} as React.CSSProperties}></span>
+                                <span className="blue" style={{'--i':3} as React.CSSProperties}></span>
                             </div>
                         </div>
                     </div>
@@ -32,10 +32,10 @@ const JoinCommunity = () => {
                         <div className="box">
                             <div className="boxtop"></div>
                             <div>
-                                <span style={{'--i':0}}></span>
-                                <span style={{'--i':1}}></span>
-                                <span style={{'--i':2}}></span>
-                                <span style={{'--i':3}}></span>
+                                <span style={{'--i':0} as React.CSSProperties}></span>
+                                <span style={{'--i':1} as React.CSSProperties}></span>
+                                <span style={{'--i':2} as React.CSSProperties}></span>
+                                <span style={{'--i':3} as React.CSSProperties}></span>
                             </div>
                         </div>
                     </div>
@@ -44,10 +44,10 @@ const JoinCommunity = () => {
                         <div className="box">
                             <div className="boxtop yellow"></div>
                             <div>
-                                <span className="yellow" style={{'--i':0}}></span>
-                                <span className="yellow" style={{'--i':1}}></span>
-                                <span className="yellow" style={{'--i':2}}></span>
-                                <span className="yellow" style={{'--i':3}}></span>
+                                <span className="yellow" style={{'--i':0} as React.CSSProperties}></span>
+                                <span className="yellow" style={{'--i':1} as React.CSSProperties}></span>
+                                <span className="yellow" style={{'--i':2} as React.CSSProperties}></span>
+                                <span className="yellow" style={{'--i':3} as React.CSSProperties}></span>
                             </div>
                         </div>
                     </div>
@@ -56,10 +56,10 @@ const JoinCommunity = () => {
                         <div className="box">
                             <div className="boxtop red"></div>
                             <div>
-                                <span className="red" style={{'--i':0}}></span>
-                                <span className="red" style={{'--i':1}}></span>
-                                <span className="red" style={{'--i':2}}></span>
-                                <span className="red" style={{'--i':3}}></span>
+                                <span className="red" style={{'--i':0} as React.CSSProperties}></span>
+                                <span className="red" style={{'--i':1} as React.CSSProperties}></span>
+                                <span className="red" style={{'--i':2} as React.CSSProperties}></span>
+                                <span className="red" style={{'--i':3} as React.CSSProperties}></span>
                             </div>
                         </div>
                     </div>

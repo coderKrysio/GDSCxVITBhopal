@@ -7,6 +7,14 @@ const Navbar = () => {
     const router = useRouter();
     const [isOpen, setIsOpen] = useState(false);
 
+    const setDarkMode =() => {
+        document.querySelector("body")!.setAttribute('data-theme','dark')
+    }
+    
+    const setLightMode =() => {
+        document.querySelector("body")!.setAttribute('data-theme','light') 
+    }
+
     const toggleTheme = (e: any) => {
         if(e.target.checked) setDarkMode();
         else setLightMode();
@@ -56,12 +64,5 @@ const Navbar = () => {
 
 export default Navbar
 
-const element = document.querySelector("body") as HTMLElement;
+// const element = document.querySelector("body") as HTMLElement;
 
-const setDarkMode =() => {
-    element.setAttribute('data-theme','dark')
-}
-
-const setLightMode =() => {
-    element.setAttribute('data-theme','light') 
-}
