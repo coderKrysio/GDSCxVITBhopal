@@ -9,7 +9,7 @@ const EventCard = ({ setIsOpen }: any) => {
                     </div>
 
                     <div className="event--info">
-                        <div className="poster"><img src="/images/logo-design.svg"></img></div>
+                        <div className="poster"><img src="/images/logo-design.svg" alt="event-poster"></img></div>
                         <div className="info">
                             <h3>Event Name</h3>
                             <p>Tag Line</p>

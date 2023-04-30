@@ -52,8 +52,8 @@ const Navbar = () => {
                 <form action="#">
                     <label className="navigate">
                         <input type={'checkbox'} onChange={() => setIsOpen(true)}></input>
-                        <img className="dot light--mode" src="https://img.icons8.com/ios-filled/50/null/menu-2.png"/>
-                        <img className="dot dark--mode" src="https://img.icons8.com/ios-filled/50/ffffff/menu-2.png"/>
+                        <img className="dot light--mode" src="https://img.icons8.com/ios-filled/50/null/menu-2.png" alt="menu"/>
+                        <img className="dot dark--mode" src="https://img.icons8.com/ios-filled/50/ffffff/menu-2.png" alt="menu"/>
                     </label>
                 </form>
             </div>

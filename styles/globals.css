@@ -1371,6 +1371,10 @@ select{
     margin-bottom: 10px;
 }
 
+.magazine img{
+  width: 336px;
+}
+
 /* footer design */
 footer{
     position: relative;

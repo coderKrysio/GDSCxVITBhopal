@@ -17,7 +17,7 @@ export default function Events(){
             <Image className="bg--img dark--mode" src={'/images/eventbg-dark.jpg'} width={2000} height={2000} alt="background"></Image>
             <span className="page--info"> 
                 <h1 className="page--h1">Events</h1>
-                <p>Welcome to our club's events, where innovation meets community. Our events are not just about learning and networking, but also about fostering a culture of growth and collaboration. We believe that by sharing knowledge and experiences, we can all grow together and create a better future. So join us, as we explore the latest trends, exchange ideas, and work towards building a more inclusive and sustainable world.</p>
+                <p>Welcome to our club&#39;s events, where innovation meets community. Our events are not just about learning and networking, but also about fostering a culture of growth and collaboration. We believe that by sharing knowledge and experiences, we can all grow together and create a better future. So join us, as we explore the latest trends, exchange ideas, and work towards building a more inclusive and sustainable world.</p>
             </span>
             <FilterDiv/>
             <div className="events--holder">
