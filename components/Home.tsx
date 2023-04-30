@@ -13,10 +13,10 @@ export default function Home(){
             <div className="dark--mode">
                 <div className="sq--anime">
                     <div className="home--anime">
-                        <div className="abox" style={{"--i":1}}></div>
-                        <div className="abox" style={{"--i":2}}></div>
-                        <div className="abox" style={{"--i":3}}></div>
-                        <div className="abox" style={{"--i":4}}></div>
+                        <div className="abox" style={{"--i":1} as React.CSSProperties}></div>
+                        <div className="abox" style={{"--i":2} as React.CSSProperties}></div>
+                        <div className="abox" style={{"--i":3} as React.CSSProperties}></div>
+                        <div className="abox" style={{"--i":4} as React.CSSProperties}></div>
                     </div>
                 </div>                
             </div>
