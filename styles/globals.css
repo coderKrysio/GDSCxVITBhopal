@@ -818,6 +818,7 @@ select{
     display: flex;
     padding-top: 40px;
     margin: auto auto;
+    width: 286px;
     position: relative;
 }
 
@@ -1068,9 +1069,8 @@ select{
 .perpetual--ele::after {
     content: '';
     position: absolute;
+    transform: translateX(-33%);
     top: 400px;
-    left: 50%;
-    transform: translateX(-50%);
     width: 600px;
     height: 600px;
     background: #DB4437;
@@ -1204,8 +1204,7 @@ select{
 
 .community--ele{
     position: absolute;
-    left: -7%;
-    transform: rotate(270deg);
+    left: -7%;    
     z-index: -1;
 }
 
