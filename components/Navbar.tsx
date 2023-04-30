@@ -3,7 +3,7 @@ import { useRouter } from "next/router";
 import { useState } from "react";
 import SideMenu from "./Menu";
 
-export default function Navbar(){
+const Navbar = () => {
     const router = useRouter();
     const [isOpen, setIsOpen] = useState(false);
 
@@ -53,6 +53,8 @@ export default function Navbar(){
         </nav>
     )
 }
+
+export default Navbar
 
 const element = document.querySelector("body") as HTMLElement;
 

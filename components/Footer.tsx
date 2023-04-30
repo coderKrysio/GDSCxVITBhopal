@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 
-export default function Footer(){
+const Footer = () => {
     return(
         <footer>
             <Image className="light--mode" src={'/images/GDSC-logo.png'} alt="GDSC Logo" title="DSC Vit Bhopal University" width={300} height={150}></Image>
@@ -49,3 +49,5 @@ export default function Footer(){
         </footer>
     )
 }
+
+export default Footer

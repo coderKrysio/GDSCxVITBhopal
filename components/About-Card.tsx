@@ -1,6 +1,6 @@
 import Image from "next/image";
 
-export default function AboutCards(){
+const AboutCards = () => {
     return(
         <div className="about--cards">
             <div className="about--card">
@@ -30,3 +30,5 @@ export default function AboutCards(){
         </div>
     )
 }
+
+export default AboutCards

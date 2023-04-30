@@ -1,7 +1,7 @@
 import { useRouter } from "next/router";
 import AboutCards from "./About-Card";
 
-export default function About(){
+const About = () => {
     const router = useRouter();
 
     return (
@@ -18,3 +18,5 @@ export default function About(){
             </div>
         </section>)
 }
+
+export default About
