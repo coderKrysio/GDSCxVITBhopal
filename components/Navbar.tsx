@@ -54,10 +54,12 @@ export default function Navbar(){
     )
 }
 
+const element = document.querySelector("body") as HTMLElement;
+
 const setDarkMode =() => {
-    document.querySelector("body").setAttribute('data-theme','dark')
+    element.setAttribute('data-theme','dark')
 }
 
 const setLightMode =() => {
-    document.querySelector("body").setAttribute('data-theme','light')
+    element.setAttribute('data-theme','light') 
 }
