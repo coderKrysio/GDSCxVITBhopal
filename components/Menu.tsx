@@ -4,8 +4,8 @@ const SideMenu = ({setIsOpen}: any) => {
     return(
         <div className="menu--div">
             <button>
-                <img className="cross light--mode" onClick={() => setIsOpen(false)} src="https://img.icons8.com/sf-black/64/null/multiply.png"/>
-                <img className="cross dark--mode" onClick={() => setIsOpen(false)} src="https://img.icons8.com/sf-black/64/ffffff/multiply.png"/>
+                <img className="cross light--mode" onClick={() => setIsOpen(false)} src="https://img.icons8.com/sf-black/64/null/multiply.png" alt="close"/>
+                <img className="cross dark--mode" onClick={() => setIsOpen(false)} src="https://img.icons8.com/sf-black/64/ffffff/multiply.png" alt="close"/>
             </button>
             
             <ul className="menu--links">

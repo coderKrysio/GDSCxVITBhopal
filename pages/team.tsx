@@ -17,7 +17,7 @@ export default function Teams(){
             <Image className="bg--img dark--mode" src={'/images/teambg-dark.jpg'} width={2000} height={2000} alt="background"></Image>
             <span className="page--info"> 
                 <h1 className="page--h1">The Team</h1>
-                <p>Meet the GDS-Club team - a group of brainy tech geeks who eat, sleep, and breathe code! They're like the Avengers of the tech world, but instead of fighting aliens and supervillains, they're battling bugs and writing elegant algorithms. They may not have capes or superpowers, but they've got something even better - an insatiable curiosity and a love for all things tech. So don't mess with them, unless you want to end up on the wrong side of a coding duel!</p>
+                <p>Meet the GDS-Club team - a group of brainy tech geeks who eat, sleep, and breathe code! They&#39;re like the Avengers of the tech world, but instead of fighting aliens and supervillains, they&#39;re battling bugs and writing elegant algorithms. They may not have capes or superpowers, but they&#39;ve got something even better - an insatiable curiosity and a love for all things tech. So don&#39;t mess with them, unless you want to end up on the wrong side of a coding duel!</p>
             </span>
             <div className="team--year">
                 <ul>

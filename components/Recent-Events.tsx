@@ -9,7 +9,7 @@ const RecentEvents = () => {
                 <div>
                     <div className="event--holder">
                         <span>
-                            <img src={''}></img>
+                            <img src={'/images/logo-design.svg'} alt="event-posters"></img>
                             <h3>Web Development</h3>
                             <p>For students to learn development skills, solve problems through technology and inspire them to be world class developers and changemakers.</p>
                         </span>                    
@@ -20,7 +20,7 @@ const RecentEvents = () => {
                 <div>
                     <div className="event--holder" >
                         <span>
-                            <img src={''}></img>
+                            <img src={'/images/logo-design.svg'} alt="event-posters"></img>
                             <h3>Target Audience</h3>
                             <p>The DSC program is a grassroots channel through which Google provides development skills, mobile and web development skills for students, towards employability.</p>
                         </span> 
@@ -31,7 +31,7 @@ const RecentEvents = () => {
                 <div>
                     <div className="event--holder">
                         <span>
-                            <img src={''}></img>
+                            <img src={'/images/logo-design.svg'} alt="event-posters"></img>
                             <h3>ML Talks</h3>
                             <p>DSC activities are targeted at University students and any others including faculty members who want to learn development skills & work to solve real-life problems.</p>
                         </span>                    
